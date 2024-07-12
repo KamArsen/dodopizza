@@ -165,3 +165,11 @@ cursor: pointer;
     border-radius: 50%;
     color: #fff;
   }
+  @media (max-width: 768px){
+    .list{
+      flex-direction: column;
+      column-gap: 50px;
+      align-items: center;
+    }
+  }
+  
